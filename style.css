@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    border-color: black;
+  }
+  
+.item1 {
+    flex-grow: 1;
+    height: 100px;
+    background-color: blue;
+    border-color: black;
+  }
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
